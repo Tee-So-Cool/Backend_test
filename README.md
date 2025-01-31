@@ -30,6 +30,12 @@
 
 ```bash
 $ npm install
+
+#install dependencies
+$ npm install @nestjs/typeorm typeorm mysql2
+
+#install ts-node
+$ npm install ts-node --save-dev
 ```
 
 ## Compile and run the project
@@ -48,6 +54,9 @@ $ npm run start:prod
 ## Run tests
 
 ```bash
+# tests seed
+$ npm run seed
+
 # unit tests
 $ npm run test
 
